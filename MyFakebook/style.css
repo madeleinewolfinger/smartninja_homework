@@ -1,0 +1,58 @@
+body{
+    background-color: #333300;
+    font-family: 'Bahnschrift light', monospace;
+    }
+
+#blue {color: #3333ff}
+
+h1 {color: white}
+
+.imagemyself {
+    height:250px;
+    border-width:5px;
+    border-radius: 30%;
+  }
+
+h1{
+    margin-top: 10px;
+    margin-bottom: 5px;
+    margin-right: 900px;
+    border-radius:10%;
+    background-color: #006600;
+    }
+
+
+#erstespalte{
+    padding-left: 100px;
+    padding-top: 25px;
+    background-color: #ffd9b3;
+    width:450px;
+    height:700px;
+    float:left;
+    }
+
+#zweitespalte{
+    background-color: #ffb366;
+    width: 480px;
+    height: 700px;
+    float:right;
+    padding-top: 25px;
+    border-style: solid;
+    }
+
+#head{
+    float: right;
+    margin-right:35px}
+
+table {
+    border-collapse: collapse;
+}
+
+table, th, td{
+    border: 1px solid black;
+    margin-right:200px;
+    }
+
+.image{
+    height:100px;
+    float: right}
