@@ -1,0 +1,39 @@
+{% extends "frame.html" %}
+
+{% block title %}
+  Contact Me
+{% endblock title %}
+
+{% block content %}
+
+<div id="greenbox">
+<h1>Kontaktiere mich...</h1>
+<h2>Dein Feedback ist mir wichtig!</h2>
+</div>
+
+<div class="contact">
+  <form action="action_page.php">
+
+    <label for="fname">Vorname</label>
+    <input type="text" id="fname" name="Vorname" placeholder="Ihr Vorname...">
+
+    <label for="lname">Nachname</label>
+    <input type="text" id="lname" name="Nachname" placeholder="Ihr Nachname">
+
+    <label for="country">Land</label>
+    <select id="country" name="country">
+      <option value="australia">Österreich</option>
+      <option value="canada">Deutschland</option>
+      <option value="usa">Schweiz</option>
+    </select>
+
+    <label for="subject">Betreff</label>
+    <textarea id="subject" name="Betreff" placeholder="Schreibe etwas..." style="height:200px"></textarea>
+
+    <input type="submit" value="Abschicken">
+
+  </form>
+</div>
+
+
+{% endblock content %}
